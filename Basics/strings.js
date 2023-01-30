@@ -22,8 +22,25 @@ console.log(`Hello ${name} ${surname}`); // Hello Jill Smith
 
 // - ` (Backtick) ile başlayıp ` (Backtick) ile biten bir string ifadeye "Template Literal" denir. 
 // - Template Literal'lar ES6 ile gelen bir özelliktir.
-// - Template Literal'lar ile birlikte ES6 ile gelen "Template Literals" özelliği de gelmiştir.
 // - Bu yüzden tek tırnak veya çift tırnak kullanılmadan string ifadeler yazılabilir. 
 //! - Bana backtick saçma gelse de, Dart dilinde değişkenleri concat etmek için sadece "$" ve tırnak yeterliydi.
 //! - Bu yüzden daha kolay bir kullanımı vardı.
 //! - Ama JS'e sonraki güncellemeler ile geldiği için muhtemelen Legacy Prod'lar patlamasın diye farklı yapmış olabilirler :)
+
+
+// - String ifadelerdeki karakterlerin index numaraları 0'dan başlar.
+// - Ve çoğu dilde ortak olan fonksiyonlar da vardır.
+
+// - Örneğin bir string ifadenin uzunluğunu bulmak için "length" fonksiyonu kullanılır.
+// - Veya bir string ifadenin karakterlerini büyük harfe çevirmek için "toUpperCase" fonksiyonu kullanılır.
+// - Veya bir string ifadenin karakterlerini küçük harfe çevirmek için "toLowerCase" fonksiyonu kullanılır.
+// - Slice fonksiyonu ile bir string ifadenin belirli bir kısmını alabiliriz.
+
+
+var myName = "Jill Smith";
+console.log(myName.length); // 10
+console.log(myName.toUpperCase()); // JILL SMITH
+console.log(myName.toLowerCase()); // jill smith
+console.log(myName.slice(0, 4)); // Jill
+
+// ------------------------------ // 
