@@ -25,7 +25,11 @@ b = true;
 const c = 10;
 // c = "10"; // Hata verir.
 
-// - Çünkü Dart dilinde de olduğu gibi "const" ile tanımlanan değişkenler Compile Time'da değer alır. (Compile Time Constant)
+// - Çünkü Dart dilinde de olduğu gibi "const" ile tanımlanan değişkenler sabittir. (Immutable) 
+// - Ufak bir düzeltme yapalım. 
+// - Dart dilindeki gibi JavaScript'in Compile adımı yoktur.
+// - Bunun yerine, tarayıcıdaki bir Interpreter JavaScript kodunu okur, her satırı yorumlar ve çalıştırır. Daha modern tarayıcılar, 
+// - JavaScript'i tam çalışmak üzereyken yürütülebilir bayt koduna derleyen Tam Zamanında (JIT) derlemesi olarak bilinen bir teknolojiyi kullanır.
 
 // Fakat JS Dart'ın aksine değişkenlerin tipini belirtmek zorunda değildir. (Implicit Typing)
 // Örneğin;
