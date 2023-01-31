@@ -64,6 +64,7 @@ In this repository, I will share JS examples while learning it.
   - [x] Project Setup
   - [x] Variables and Data Types
   - [x] Strings and Template Literals
+  - [ ] Functions
 
 
 
