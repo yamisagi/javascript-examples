@@ -37,3 +37,34 @@ function calculate(a, b, operation) {
 
 console.log(calculate(2, 3, add)); // 5
 
+// - Fonksiyonlarda Dart dilindeki gibi parametreler verilebilir.
+
+// Örneğin;
+
+function addNonNamed(a, b) {
+    return a + b;
+}
+
+console.log(addNonNamed(2, 3)); // 5
+
+// - Fonksiyonlarda Dart dilindeki gibi parametrelerin varsayılan değerleri verilebilir.
+
+
+// Örneğin; 
+
+function addDefaultValued(a, b = 1) {
+    return a + b;
+}
+
+console.log(addDefaultValued(2)); // 3
+
+// - Fonksiyonlarda Dart dilindeki gibi isimlendirilmiş parametreler verilebilir.
+
+// Örneğin;
+
+function addNamed({  a, b }) {
+    return a + b;
+}
+
+console.log(addNamed({ a: 2, b: 3 })); // 5
+
