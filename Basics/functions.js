@@ -68,3 +68,14 @@ function addNamed({  a, b }) {
 
 console.log(addNamed({ a: 2, b: 3 })); // 5
 
+
+// - Fonksiyonlarda return ifadesi ile döndürülen değerler varsa döndürülür. 
+
+// Örneğin;
+
+function divide(a, b) {
+   console.log(a / b);
+    return Math.round(a / b);
+}
+
+console.log(divide(5, 2)); // 3
