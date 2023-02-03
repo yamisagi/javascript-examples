@@ -79,3 +79,41 @@ function divide(a, b) {
 }
 
 console.log(divide(5, 2)); // 3
+
+// - Fonksiyonlarda iç içe fonksiyonlar tanımlanabilir. 
+
+// Örneğin;
+
+function outer() {
+
+    function inner() {
+        console.log("inner");
+    }
+
+    console.log("outer");
+    inner();
+}
+
+outer(); // outer inner
+
+
+// - Fonksiyonlarda Dart dilindeki gibi arrow function kullanılabilir.
+
+// Örneğin;
+
+
+const addArrow = (a, b) => {
+    return a + b;
+}
+
+
+console.log(addArrow(2, 3)); // 5
+
+// - Fonksiyonlarda Dart dilindeki gibi arrow function kullanılarak tek satırlık fonksiyonlar tanımlanabilir.
+
+// Örneğin;
+
+const addArrowSingleLine = (a, b) => a + b;
+
+console.log(addArrowSingleLine(2, 3)); // 5
+
