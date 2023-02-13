@@ -66,7 +66,8 @@ In this repository, I will share JS examples while learning it.
   - [x] Strings and Template Literals
   - [x] Functions
   - [x] Conditional Statements
-  - [ ] Arrays
+  - [x] Arrays
+  - [x] Loops
 
 
   
